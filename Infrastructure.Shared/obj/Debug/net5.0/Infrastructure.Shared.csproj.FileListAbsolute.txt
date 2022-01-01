@@ -1,0 +1,17 @@
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.deps.json
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\ref\Infrastructure.Shared.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.AssemblyReference.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.AssemblyInfo.cs
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.CopyComplete
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\ref\Infrastructure.Shared.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.pdb

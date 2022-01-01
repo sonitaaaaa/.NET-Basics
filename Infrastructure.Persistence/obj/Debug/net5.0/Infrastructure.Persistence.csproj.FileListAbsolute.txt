@@ -1,0 +1,17 @@
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.deps.json
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\ref\Infrastructure.Persistence.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.CopyComplete
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\ref\Infrastructure.Persistence.dll
+C:\Users\Snita\source\repos\BlogsDEMO\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.pdb
