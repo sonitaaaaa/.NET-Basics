@@ -4067,6 +4067,7 @@
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -12405,11 +12406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
       "projectName": "BlogsDemoWebApi",
-      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
+      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
       "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\obj\\",
+      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12426,14 +12427,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
             },
-            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
-              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj"
             },
-            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
-              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj"
             }
           }
         }

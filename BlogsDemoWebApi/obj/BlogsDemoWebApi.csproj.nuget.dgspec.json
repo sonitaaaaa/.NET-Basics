@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj": {}
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
         "projectName": "BlogsDEMO.Domain",
-        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
+        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
         "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj": {
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
         "projectName": "BlogsDemoWebApi",
-        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
+        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
         "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\obj\\",
+        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,14 +98,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
               },
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj"
               },
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj"
               }
             }
           }
@@ -233,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj",
         "projectName": "BlogsDEMO.Application",
-        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj",
+        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj",
         "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\obj\\",
+        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -343,14 +343,14 @@
         }
       }
     },
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
         "projectName": "Infrastructure.Persistence",
-        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
         "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -367,11 +367,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
               },
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
               }
             }
           }
@@ -398,6 +398,12 @@
               "target": "Package",
               "version": "[5.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -409,6 +415,10 @@
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -434,14 +444,14 @@
         }
       }
     },
-    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
+    "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
         "projectName": "Infrastructure.Shared",
-        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+        "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
         "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -458,11 +468,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
               },
-              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+              "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+                "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
               }
             }
           }

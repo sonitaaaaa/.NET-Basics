@@ -3544,6 +3544,7 @@
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {

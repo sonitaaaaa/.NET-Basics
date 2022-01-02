@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jtr01OGh99hpVtetZh4RsnXXeo9xNHN+5qp87ev35fPMaC+Gp6lPL5BnlK29T6j+QZMRniTFEGZlUqIYEWpuKA==",
+  "dgSpecHash": "u7GrAomJakNeu2Gf9uBeLg6r69+y4rYImfBrhljaF2l+jJmu7c0JuujX8r7AQ6bVMH55WSg6aYfHt3aiqs6XJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Snita\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Snita\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

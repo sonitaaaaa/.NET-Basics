@@ -2253,11 +2253,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
       "projectName": "Infrastructure.Shared",
-      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
       "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\Infrastructure.Shared\\obj\\",
+      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2274,11 +2274,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
-              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
             },
-            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cjysn9TJFQuDp1QkoZIwlBFF4tBmZWzTH3juXFeOPvvFPwje10/fSyS06VG51x76lANty/0J0B5jDv3abVpSUA==",
+  "dgSpecHash": "RH2g0fbAtbhRDpcHZVmICt63vsrgvfEW+Wztg8QRncVjf/zDoasZmKcBHk2h4pdhwZRc10AJk/bBs01glsa3Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
+  "projectFilePath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDemoWebApi\\BlogsDemoWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Snita\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\5.0.3\\aspnetcore.healthchecks.sqlserver.5.0.3.nupkg.sha512",
     "C:\\Users\\Snita\\.nuget\\packages\\aspnetcore.healthchecks.ui\\5.0.1\\aspnetcore.healthchecks.ui.5.0.1.nupkg.sha512",

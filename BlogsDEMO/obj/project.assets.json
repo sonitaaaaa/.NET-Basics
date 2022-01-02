@@ -1770,11 +1770,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj",
       "projectName": "BlogsDEMO.Application",
-      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\BlogsDEMO.Application.csproj",
+      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj",
       "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\BlogsDEMO\\obj\\",
+      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",

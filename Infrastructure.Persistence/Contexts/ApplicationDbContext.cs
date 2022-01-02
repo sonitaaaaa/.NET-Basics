@@ -9,10 +9,10 @@ namespace Infrastructure.Persistence.Contexts
 {
     public class ApplicationDbContext : DbContext
     {
-/*        private readonly IDateTimeService _dateTime;*/
+        private readonly IDateTimeService _dateTime;
         private readonly IAuthenticatedUserService _authenticatedUser;
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, /*IDateTimeService dateTime*/ IAuthenticatedUserService authenticatedUser) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IDateTimeService dateTime, IAuthenticatedUserService authenticatedUser) : base(options)
         {
             /*_dateTime = dateTime;*/
             _authenticatedUser = authenticatedUser;
@@ -35,12 +35,12 @@ namespace Infrastructure.Persistence.Contexts
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        /*entry.Entity.CreatedDate = _dateTime.NowUtc;*/
+                        entry.Entity.CreatedDate = _dateTime.NowUtc;
                         entry.Entity.CreatedBy = _authenticatedUser.UserId;
                         break;
 
                     case EntityState.Modified:
-                        /*entry.Entity.ModifiedDate = _dateTime.NowUtc;*/
+                        entry.Entity.ModifiedDate = _dateTime.NowUtc;
                         entry.Entity.ModifiedBy = _authenticatedUser.UserId;
                         break;
                 }
