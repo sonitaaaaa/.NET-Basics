@@ -34,7 +34,6 @@ C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\Bl
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.dll
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\ref\BlogsDEMO.Application.dll
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.pdb
-C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.AssemblyReference.cache
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.AssemblyInfoInputs.cache
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.AssemblyInfo.cs

@@ -1,13 +1,15 @@
 ﻿using BlogsDEMO.Application.Interfaces;
 using BlogsDEMO.Domain.Common;
 using BlogsDEMO.Domain.Entities;
+using BlogsDemoWebApi.identityAuth;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace Infrastructure.Persistence.Contexts
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         private readonly IDateTimeService _dateTime;
         private readonly IAuthenticatedUserService _authenticatedUser;
