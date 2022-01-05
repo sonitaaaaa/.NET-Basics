@@ -28,3 +28,18 @@ C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\ref
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.pdb
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.genruntimeconfig.cache
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.AssemblyReference.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.deps.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.runtimeconfig.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.runtimeconfig.dev.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\ref\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.AssemblyReference.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.AssemblyInfoInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.AssemblyInfo.cs
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.CoreCompileInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\ref\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.genruntimeconfig.cache

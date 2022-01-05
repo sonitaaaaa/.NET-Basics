@@ -32,3 +32,20 @@ C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Shared\obj\Debu
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.dll
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\ref\Infrastructure.Shared.dll
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.deps.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\ref\Infrastructure.Shared.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\Infrastructure.Shared.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.AssemblyReference.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.AssemblyInfo.cs
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.csproj.CopyComplete
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\ref\Infrastructure.Shared.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Shared\obj\Debug\net5.0\Infrastructure.Shared.pdb

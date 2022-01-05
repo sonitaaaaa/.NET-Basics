@@ -34,3 +34,21 @@ C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\ref\BlogsDEMO.Domain.dll
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.pdb
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.genruntimeconfig.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Domain.deps.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Domain.runtimeconfig.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Domain.runtimeconfig.dev.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\ref\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.csproj.AssemblyReference.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.AssemblyInfoInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.AssemblyInfo.cs
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.csproj.CopyComplete
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\ref\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO.Domain\obj\Debug\net5.0\BlogsDEMO.Domain.genruntimeconfig.cache

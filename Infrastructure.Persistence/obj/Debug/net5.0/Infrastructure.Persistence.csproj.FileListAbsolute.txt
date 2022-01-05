@@ -35,3 +35,23 @@ C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Persistence\obj
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.runtimeconfig.json
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.runtimeconfig.dev.json
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.genruntimeconfig.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.deps.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.runtimeconfig.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.runtimeconfig.dev.json
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\ref\Infrastructure.Persistence.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\Infrastructure.Persistence.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Application.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Domain.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Domain.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\bin\Debug\net5.0\BlogsDEMO.Application.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.csproj.CopyComplete
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\ref\Infrastructure.Persistence.dll
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.pdb
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\Infrastructure.Persistence\obj\Debug\net5.0\Infrastructure.Persistence.genruntimeconfig.cache
