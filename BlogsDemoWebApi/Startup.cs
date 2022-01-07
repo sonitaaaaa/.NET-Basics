@@ -1,4 +1,4 @@
-using BlogsDEMO.Application;
+﻿using BlogsDEMO.Application;
 using BlogsDEMO.Application.Interfaces;
 using BlogsDemoWebApi.identityAuth;
 using Core.Application;
@@ -62,7 +62,17 @@ namespace WebApplication
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Config.GetConnectionString("DefaultConnection")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.SignIn.RequireConfirmedEmail = false;  // Cần phải xác thực Email
+                options.SignIn.RequireConfirmedPhoneNumber = false;  // Cần phải xác thực SĐT
+                options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789-._@+";
+                options.Password.RequireDigit = true; // Phải chứa chữ số
+                options.Password.RequiredLength = 6; // Độ dài tối thiểu 6
+                options.Password.RequireLowercase = true; // Chữ thường
+                options.Password.RequireNonAlphanumeric = true; // Ký tự đặc biệt
+                options.Password.RequireUppercase = true; // In hoa
+            })
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 

@@ -16,7 +16,7 @@ namespace Infrastructure.Persistence.Contexts
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IDateTimeService dateTime, IAuthenticatedUserService authenticatedUser) : base(options)
         {
-            /*_dateTime = dateTime;*/
+            _dateTime = dateTime;
             _authenticatedUser = authenticatedUser;
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }

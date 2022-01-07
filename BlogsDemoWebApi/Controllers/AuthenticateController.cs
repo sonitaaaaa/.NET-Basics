@@ -32,9 +32,12 @@ namespace BlogsDemoWebApi.Controllers
             _configuration = configuration;
         }
 
+
+         // Phần đăng ký
+
         [HttpPost]
         [Route("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterModel model)
+        public async Task<IActionResult> Register([FromBody] Register model)
         {
             var userExists = await _userManager.FindByNameAsync(model.UserName);
 
@@ -50,19 +53,29 @@ namespace BlogsDemoWebApi.Controllers
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details & try again." });
+            {
+                var errors = new List<string>();
 
+                foreach (var error in result.Errors)
+                {
+                    errors.Add(error.Description);
+                }
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = string.Join(",", errors) });
+            }
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
+         // Phần đăng ký với role là ADMIN
+
         [HttpPost]
         [Route("register-admin")]
-        public async Task<IActionResult> RegisterAdmin([FromBody] RegisterModel model)
+        public async Task<IActionResult> RegisterAdmin([FromBody] Register model)
         {
             var userExists = await _userManager.FindByNameAsync(model.UserName);
 
             if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" });
+                return StatusCode(StatusCodes.Status409Conflict, new Response { Status = "Error", Message = "User already exists!" });
             ApplicationUser user = new()
             {
                 Email = model.Email,
@@ -72,7 +85,16 @@ namespace BlogsDemoWebApi.Controllers
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details & try again." });
+            {
+                var errors = new List<string>();
+
+                foreach (var error in result.Errors)
+                {
+                    errors.Add(error.Description);
+                }
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = string.Join(",", errors) });
+            }
 
             if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
                 await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
@@ -87,9 +109,11 @@ namespace BlogsDemoWebApi.Controllers
 
         }
 
+         //Phần đăng nhập
+
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel model)
+        public async Task<IActionResult> Login([FromBody] Login model)
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
@@ -111,7 +135,7 @@ namespace BlogsDemoWebApi.Controllers
                 var token = new JwtSecurityToken(
                        issuer: _configuration["JWTSettings:Issuer"],
                        audience: _configuration["JWTSettings:Audience"],
-                       expires: DateTime.Now.AddHours(3),
+                       expires: DateTime.Now.AddHours(5), // Han su dung cua Token trong (... tieng)
                        claims: authClaims,
                        signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                     );
@@ -119,7 +143,36 @@ namespace BlogsDemoWebApi.Controllers
                 return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token), expiration = token.ValidTo });
             }
 
-            return Unauthorized();
+             return Unauthorized(); // Không thỏa điều kiện là ADMIN hoặc nhập sai thông tin thì trả về 
+        }
+
+         // Đổi mật khẩu
+
+        [HttpPost]
+        [Route("change-password")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePassword model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            if (user == null)
+                return StatusCode(StatusCodes.Status404NotFound, new Response { Status = "Error", Message = "User does not exists!" });
+
+            if (string.Compare(model.NewPassword, model.ConfirmNewPassword) != 0)
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = "The new password and confirm new password does not match!" });
+
+            var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+            if (!result.Succeeded)
+            {
+                var errors = new List<string>();
+
+                foreach (var error in result.Errors)
+                {
+                    errors.Add(error.Description);
+                }
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = string.Join(",", errors) });
+            }
+
+            return Ok(new Response { Status = "Success", Message = "Password successfully changed." });
         }
     }
 }

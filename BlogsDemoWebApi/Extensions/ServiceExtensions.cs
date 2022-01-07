@@ -20,7 +20,7 @@ namespace WebApplication.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "ESH.HK.WebApi",
+                    Title = "Blogs.WebApi",
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46506dc1-1f85-4c1c-9994-198aab637710": {
+      "ProjectGuid": "46506dc1-1f85-4c1c-9994-198aab637710",
+      "DisplayName": "BlogsDemoWebApi",
+      "ColorIndex": 0
+    },
+    "7f2250ea-23bf-440b-bd91-76cc1c78c153": {
+      "ProjectGuid": "7f2250ea-23bf-440b-bd91-76cc1c78c153",
+      "DisplayName": "BlogsDEMO.Domain",
+      "ColorIndex": 1
+    },
+    "1d5840fb-f436-454c-9019-28c9debc41ed": {
+      "ProjectGuid": "1d5840fb-f436-454c-9019-28c9debc41ed",
+      "DisplayName": "BlogsDEMO.Application",
+      "ColorIndex": 2
+    },
+    "2d3afab9-622c-42bb-a2ac-42cac9405069": {
+      "ProjectGuid": "2d3afab9-622c-42bb-a2ac-42cac9405069",
+      "DisplayName": "Infrastructure.Persistence",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

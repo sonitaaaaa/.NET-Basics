@@ -42,3 +42,4 @@ C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\Bl
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\ref\BlogsDEMO.Application.dll
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.pdb
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.genruntimeconfig.cache
+C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.AssemblyReference.cache
