@@ -1,5 +1,6 @@
 ﻿using BlogsDemoWebApi.identityAuth;
 using BlogsDemoWebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +34,7 @@ namespace BlogsDemoWebApi.Controllers
         }
 
 
-         // Phần đăng ký
+        // Phần đăng ký
 
         [HttpPost]
         [Route("register")]
@@ -48,7 +49,10 @@ namespace BlogsDemoWebApi.Controllers
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.UserName
+                UserName = model.UserName,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Gender = model.Gender
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
@@ -66,7 +70,7 @@ namespace BlogsDemoWebApi.Controllers
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
-         // Phần đăng ký với role là ADMIN
+        // Phần đăng ký với role là ADMIN
 
         [HttpPost]
         [Route("register-admin")]
@@ -80,7 +84,10 @@ namespace BlogsDemoWebApi.Controllers
             {
                 Email = model.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = model.UserName
+                UserName = model.UserName,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Gender = model.Gender
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
@@ -109,7 +116,7 @@ namespace BlogsDemoWebApi.Controllers
 
         }
 
-         //Phần đăng nhập
+        //Phần đăng nhập
 
         [HttpPost]
         [Route("login")]
@@ -119,13 +126,15 @@ namespace BlogsDemoWebApi.Controllers
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 var userRoles = await _userManager.GetRolesAsync(user);
+
+                // sử dụng claim để thêm Identity vào JWT Token
                 var authClaims = new List<Claim>
                 {
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())   
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 };
 
-                foreach(var userRole in userRoles)
+                foreach (var userRole in userRoles)
                 {
                     authClaims.Add(new Claim(ClaimTypes.Role, userRole));
                 }
@@ -135,7 +144,7 @@ namespace BlogsDemoWebApi.Controllers
                 var token = new JwtSecurityToken(
                        issuer: _configuration["JWTSettings:Issuer"],
                        audience: _configuration["JWTSettings:Audience"],
-                       expires: DateTime.Now.AddHours(5), // Han su dung cua Token trong (... tieng)
+                       expires: DateTime.Now.AddHours(3), // Han su dung cua Token trong (... tieng)
                        claims: authClaims,
                        signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
                     );
@@ -143,10 +152,10 @@ namespace BlogsDemoWebApi.Controllers
                 return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token), expiration = token.ValidTo });
             }
 
-             return Unauthorized(); // Không thỏa điều kiện là ADMIN hoặc nhập sai thông tin thì trả về 
+            return Unauthorized(); // Không thỏa điều kiện là ADMIN hoặc nhập sai thông tin thì trả về 
         }
 
-         // Đổi mật khẩu
+        // Đổi mật khẩu
 
         [HttpPost]
         [Route("change-password")]
@@ -159,7 +168,7 @@ namespace BlogsDemoWebApi.Controllers
             if (string.Compare(model.NewPassword, model.ConfirmNewPassword) != 0)
                 return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = "The new password and confirm new password does not match!" });
 
-            var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword);
+            var result = await _userManager.ChangePasswordAsync(user, model.CurrentPassword, model.NewPassword); // Đổi mật khẩu
             if (!result.Succeeded)
             {
                 var errors = new List<string>();
@@ -173,6 +182,85 @@ namespace BlogsDemoWebApi.Controllers
             }
 
             return Ok(new Response { Status = "Success", Message = "Password successfully changed." });
+        }
+
+        // Đặt lại mật khẩu cho admin
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
+        [Route("reset-password-admin")]
+        public async Task<IActionResult> ResetPasswordAdmins([FromBody] ResetPasswordAdmin model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            if (user == null)
+                return StatusCode(StatusCodes.Status404NotFound, new Response { Status = "Error", Message = "User does not exists!" });
+
+            if (string.Compare(model.NewPassword, model.ConfirmNewPassword) != 0)
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = "The new password and confirm new password does not match!" });
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            var result = await _userManager.ResetPasswordAsync(user, token, model.NewPassword); // Đặt lại mật khẩu
+            if (!result.Succeeded)
+            {
+                var errors = new List<string>();
+
+                foreach (var error in result.Errors)
+                {
+                    errors.Add(error.Description);
+                }
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = string.Join(",", errors) });
+            }
+
+            return Ok(new Response { Status = "Success", Message = "Reset Password Successfully!" });
+        }
+
+        // Đặt lại mật khẩu cho user
+
+        [HttpPost]
+        [Route("reset-password-token")]
+        public async Task<IActionResult> ResetPasswordTokens([FromBody] ResetPasswordToken model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            if (user == null)
+                return StatusCode(StatusCodes.Status404NotFound, new Response { Status = "Error", Message = "User does not exists!" });
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            // Phương pháp hay nhất là gửi mã thông báo đến email người dùng và tạo url
+
+            return Ok(new { token = token });
+        }
+
+        [HttpPost]
+        [Route("reset-password")]
+        public async Task<IActionResult> ResetPasswords([FromBody] ResetPassword model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            if (user == null)
+                return StatusCode(StatusCodes.Status404NotFound, new Response { Status = "Error", Message = "User does not exists!" });
+
+            if (string.Compare(model.NewPassword, model.ConfirmNewPassword) != 0)
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = "The new password and confirm new password does not match!" });
+
+            if (string.IsNullOrEmpty(model.Token))
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = "Invalid Token!" });
+
+            var result = await _userManager.ResetPasswordAsync(user, model.Token, model.NewPassword); // Đặt lại mật khẩu
+            if (!result.Succeeded)
+            {
+                var errors = new List<string>();
+
+                foreach (var error in result.Errors)
+                {
+                    errors.Add(error.Description);
+                }
+
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = string.Join(",", errors) });
+            }
+
+            return Ok(new Response { Status = "Success", Message = "Reset Password Successfully!." });
         }
     }
 }

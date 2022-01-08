@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,8 +14,14 @@ namespace WebApplication.Extensions
 {
     public static class ServiceExtensions
     {
-        public static void AddSwaggerExtension(this IServiceCollection services)
+       /* public static void AddSwaggerExtension(this IServiceCollection services)
         {
+
+            services.Configure<DataProtectionTokenProviderOptions>(options =>
+            {
+                options.TokenLifespan = TimeSpan.FromHours(2); // Thoi gian ton tai cua Token = ... Tieng(Hour)
+            });
+
             services.AddSwaggerGen(c =>
             {
                 //c.IncludeXmlComments($@"{System.AppDomain.CurrentDomain.BaseDirectory}\ESH.HK.WebApi.xml");
@@ -68,7 +76,7 @@ namespace WebApplication.Extensions
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
                     };
                 });
-        }
+        }*/
 
         public static void AddCorsExtensions(this IServiceCollection service)
         {

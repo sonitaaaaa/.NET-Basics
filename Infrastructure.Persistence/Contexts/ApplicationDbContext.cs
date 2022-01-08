@@ -21,6 +21,23 @@ namespace Infrastructure.Persistence.Contexts
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
+
+        // Cái này cho phần Họ và Tên trong Identity sử dụng ModelBuilder
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ApplicationUser>()
+                .Property(e => e.FirstName)
+                .HasMaxLength(250);
+
+            modelBuilder.Entity<ApplicationUser>()
+                .Property(e => e.LastName)
+                .HasMaxLength(250);
+
+        }
+
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }

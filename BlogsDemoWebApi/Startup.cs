@@ -47,8 +47,8 @@ namespace WebApplication
             services.AddApplicationLayer();
             services.AddPersistenceInfrastructure(Config);
             services.AddSharedInfrastructure(Config);
-            services.AddSwaggerExtension();
-            services.AuthenticationExtensions(Config);
+            /*services.AddSwaggerExtension();
+            services.AuthenticationExtensions(Config);*/
             services.AddCorsExtensions();
             services.AddSharedInfrastructure(Config);
             services.AddControllers().AddNewtonsoftJson();
@@ -76,7 +76,7 @@ namespace WebApplication
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-           /* services.AddAuthentication(options =>
+            services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -85,25 +85,30 @@ namespace WebApplication
 
             .AddJwtBearer(options =>
             {
-                 options.SaveToken = true;
-                 options.RequireHttpsMetadata = false;
-                 options.TokenValidationParameters = new TokenValidationParameters() 
-                 {
-                      ValidateIssuer = true,
-                      ValidateAudience = true,
-                      ValidIssuer = Config["JWTSettings:Issuer"],
-                      ValidAudience = Config["JWTSettings:Audience"],
-                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Config["JWTSettings:Key"]))
-                 };
-            });*/
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidIssuer = Config["JWTSettings:Issuer"],
+                    ValidAudience = Config["JWTSettings:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Config["JWTSettings:Key"]))
+                };
+            });
 
-           /* services.AddSwaggerGen(c =>
+            services.Configure<DataProtectionTokenProviderOptions>(options =>
+            {
+                options.TokenLifespan = TimeSpan.FromHours(2); // Thoi gian ton tai cua Token = ... Tieng(Hour)
+            });
+
+            services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "JWTAuth",
+                    Title = "Blogs.WebApi",
                     Version = "v1",
-                    Description = "Cha biet mo ta cai gi, chac la ASP.NET Core 5.0  Auth with JWT & Swagger"
+                    Description = "Blog ASP.NET Core 5.0  Auth with JWT & Swagger"
                 });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
@@ -130,7 +135,7 @@ namespace WebApplication
                         , new string[] {}
                     }
                 });
-            });*/
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

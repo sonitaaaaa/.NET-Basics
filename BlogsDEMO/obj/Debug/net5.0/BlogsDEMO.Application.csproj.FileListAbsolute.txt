@@ -27,7 +27,6 @@ C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\Blo
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\ref\BlogsDEMO.Application.dll
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.pdb
 C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.genruntimeconfig.cache
-C:\Users\Snita\source\repos\BlogsDEMO\.NET-Basics\BlogsDEMO\obj\Debug\net5.0\BlogsDEMO.Application.csproj.AssemblyReference.cache
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.deps.json
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.runtimeconfig.json
 C:\Users\sonit\Downloads\Blogs Project\.NET-Basics\BlogsDEMO\bin\Debug\net5.0\BlogsDEMO.Application.runtimeconfig.dev.json

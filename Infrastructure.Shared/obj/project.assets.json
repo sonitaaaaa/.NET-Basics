@@ -2248,19 +2248,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sonit\\.nuget\\packages\\": {}
+    "C:\\Users\\Snita\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
       "projectName": "Infrastructure.Shared",
-      "projectPath": "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
-      "packagesPath": "C:\\Users\\sonit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\Infrastructure.Shared\\obj\\",
+      "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\Infrastructure.Shared.csproj",
+      "packagesPath": "C:\\Users\\Snita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\Infrastructure.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sonit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Snita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2274,11 +2274,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
-              "projectPath": "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO.Domain\\BlogsDEMO.Domain.csproj"
             },
-            "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
-              "projectPath": "C:\\Users\\sonit\\Downloads\\Blogs Project\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
+            "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj": {
+              "projectPath": "C:\\Users\\Snita\\source\\repos\\BlogsDEMO\\.NET-Basics\\BlogsDEMO\\BlogsDEMO.Application.csproj"
             }
           }
         }
@@ -2321,7 +2321,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

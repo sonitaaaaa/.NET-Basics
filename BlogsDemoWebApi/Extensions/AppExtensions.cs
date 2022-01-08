@@ -10,7 +10,7 @@ namespace WebApplication.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "ESH.HKJ.WebApi");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Blogs.WebApi");
             });
         }
 
