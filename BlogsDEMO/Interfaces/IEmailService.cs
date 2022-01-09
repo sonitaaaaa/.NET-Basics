@@ -8,5 +8,8 @@ namespace BlogsDEMO.Application.Interfaces
         Task SendAsync(EmailRequest request);
 
         Task SendMultiAsync(EmailMultiRequest request);
+
+        Task ConfirmEmailAsync(string userId, string token);
+
     }
 }

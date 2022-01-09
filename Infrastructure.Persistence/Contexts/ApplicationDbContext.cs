@@ -38,14 +38,14 @@ namespace Infrastructure.Persistence.Contexts
 
         }
 
-        public DbSet<User> Users { get; set; }
+        /*public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Tag> Tags { get; set; }
-        public DbSet<PostTag> PostTags { get; set; }
+        public DbSet<PostTag> PostTags { get; set; }*/
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {

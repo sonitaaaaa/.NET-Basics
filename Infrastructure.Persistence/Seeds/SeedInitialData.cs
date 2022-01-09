@@ -19,7 +19,7 @@ namespace Infrastructure.Persistence.Seeds
 
         public async Task Seed()
         {
-            var roleAdminId = Guid.NewGuid().ToString();
+            /*var roleAdminId = Guid.NewGuid().ToString();
             var userAdminId = Guid.NewGuid().ToString();
 
             // Add Role
@@ -73,7 +73,7 @@ namespace Infrastructure.Persistence.Seeds
                     IsDeleted = false,
                 });
                 await _context.SaveChangesAsync();
-            }
+            }*/
 
             // Add Role Permission
             //if(!_context.Users.)
